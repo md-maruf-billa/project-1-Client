@@ -1,0 +1,118 @@
+I need to developing a web-based software application for Bauman Auctions. The program must have a clean, easy-to-use interface. Upon launching, the user is prompted to select a folder. The program then scans that folder and analyzes all image files.
+
+Step 1: Lot Number Detection
+The system will examine each image, identifying the lot number. The lot number will be printed on a surface that is approximately 60% white. Once the number is identified, it will be extracted using OCR (Optical Character Recognition) and entered into an Excel spreadsheet as the Lot Number.
+
+Step 2: Image Analysis + Content Generation
+For each image following a lot number image, the program will:
+
+Perform a reverse Google image search.
+
+Generate a title for the item (120 characters or fewer).
+
+Create a more detailed description based on search data.
+
+Add both the title and description to the Excel sheet.
+
+Step 3: Pricing Research
+The program will search online marketplaces (eBay, Amazon, etc.) for matching or similar items, extract the lowest and highest prices found, and record both in the spreadsheet.
+
+Repeat Process
+Once a complete lot (lot number + item images) is processed, the program continues scanning the folder until all images are processed and data is collected.
+
+Spreadsheet Output
+All results (Lot Number, Title, Description, Low Price, High Price) are compiled into an Excel spreadsheet for the user.
+
+Web Application + Admin Controls
+
+The platform will be web-based, requiring users to log in with a username and password. Admin will have full control over:
+
+User account creation
+
+Subscription plans
+
+Pricing
+
+Monthly scan/image limits
+
+There will be 4 subscription plans, each with customizable pricing and picture scan limits. The admin dashboard must allow for editing plan names, limits, pricing, and user access.
+
+Business System Needed
+
+We are developing a web-based software application for Bauman Auctions. The program must have a clean, easy-to-use interface. Upon launching, the user is prompted to select a folder. The program then scans that folder and analyzes all image files.
+Step 1: Lot Number Detection
+The system will examine each image, identifying the lot number. The lot number will be printed on a surface that is approximately 60% white. Once the number is identified, it will be extracted using OCR (Optical Character Recognition) and entered into an Excel spreadsheet as the Lot Number.
+
+Step 2: Image Analysis + Content Generation
+For each image following a lot number image, the program will:
+
+Perform a reverse Google image search.
+
+Generate a title for the item (120 characters or fewer).
+
+Create a more detailed description based on search data.
+
+Add both the title and description to the Excel sheet.
+
+Step 3: Pricing Research
+The program will search online marketplaces (eBay, Amazon, etc.) for matching or similar items, extract the lowest and highest prices found, and record both in the spreadsheet.
+
+Repeat Process
+Once a complete lot (lot number + item images) is processed, the program continues scanning the folder until all images are processed and data is collected.
+
+Spreadsheet Output
+All results (Lot Number, Title, Description, Low Price, High Price) are compiled into an Excel spreadsheet for the user.
+
+Web Application + Admin Controls
+
+The platform will be web-based, requiring users to log in with a username and password. Admin will have full control over:
+
+User account creation
+
+Subscription plans
+
+Pricing
+
+Monthly scan/image limits
+
+There will be 4 subscription plans, each with customizable pricing and picture scan limits. The admin dashboard must allow for editing plan names, limits, pricing, and user access.
+Business System Needed
+
+We are developing a web-based software application for Bauman Auctions. The program must have a clean, easy-to-use interface. Upon launching, the user is prompted to select a folder. The program then scans that folder and analyzes all image files.
+
+Step 1: Lot Number Detection
+The system will examine each image, identifying the lot number. The lot number will be printed on a surface that is approximately 60% white. Once the number is identified, it will be extracted using OCR (Optical Character Recognition) and entered into an Excel spreadsheet as the Lot Number.
+
+Step 2: Image Analysis + Content Generation
+For each image following a lot number image, the program will:
+
+Perform a reverse Google image search.
+
+Generate a title for the item (120 characters or fewer).
+
+Create a more detailed description based on search data.
+
+Add both the title and description to the Excel sheet.
+
+Step 3: Pricing Research
+The program will search online marketplaces (eBay, Amazon, etc.) for matching or similar items, extract the lowest and highest prices found, and record both in the spreadsheet.
+
+Repeat Process
+Once a complete lot (lot number + item images) is processed, the program continues scanning the folder until all images are processed and data is collected.
+
+Spreadsheet Output
+All results (Lot Number, Title, Description, Low Price, High Price) are compiled into an Excel spreadsheet for the user.
+
+Web Application + Admin Controls
+
+The platform will be web-based, requiring users to log in with a username and password. Admin will have full control over:
+
+User account creation
+
+Subscription plans
+
+Pricing
+
+Monthly scan/image limits
+
+There will be 4 subscription plans, each with customizable pricing and picture scan limits. The admin dashboard must allow for editing plan names, limits, pricing, and user access.

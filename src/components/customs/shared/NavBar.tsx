@@ -10,7 +10,15 @@ import { useState } from "react";
 import avater from "/public/avater.jpg";
 import logo from "/public/logo.png";
 
-const navItems = ["Home", "Features", "Pricing", "About", "Blog", "Contact"];
+const navItems = [
+  "Home",
+  "Get Started",
+  "Solutions",
+  "Features",
+  "Pricing",
+  "About",
+  "Blog",
+];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,8 +26,8 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className=" container mx-auto  bg-[#043873] sticky top-0 z-50">
-      <div className="w-full px-4 py-3 flex items-center justify-between">
+    <nav className="  bg-[#043873] sticky top-0 z-50">
+      <div className="container mx-auto  px-5 py-3 flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-bold text-gradient flex items-center gap-2">
           <span>

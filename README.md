@@ -1,1 +1,2 @@
-- Home page done
+-navbar done
+-bannar done
