@@ -1,2 +1,8 @@
 - navbar done
 - bannar done
+- extention
+- work together
+- pricing
+- project managment
+- working
+- 
