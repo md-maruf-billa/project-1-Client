@@ -1,3 +1,5 @@
+import { ShieldCheck } from "lucide-react";
+
 const Pricing = () => {
   const plans = [
     {
@@ -47,10 +49,10 @@ const Pricing = () => {
 
   return (
     <div className="py-16 px-10 container mx-auto text-center">
-      <h2 className="text-4xl font-bold mb-4">
+      <h2 className="text-4xl font-bold mb-4 text-[#043873]">
         Choose <span className="text-yellow-500">Your Plan</span>
       </h2>
-      <p className="text-gray-600 max-w-2xl mx-auto mb-12">
+      <p className="text-[#043873] max-w-2xl mx-auto mb-12">
         Whether you want to get organized, keep your personal life on track, or
         boost workplace productivity, Evernote has the right plan for you.
       </p>
@@ -72,7 +74,9 @@ const Pricing = () => {
             <ul className="text-left space-y-2 mb-6">
               {plan.features.map((feature, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="text-[#FFE492] ">(✓)</span>
+                  <span className="text-[#FFE492] text-xl ">
+                    <ShieldCheck />
+                  </span>
                   <span>{feature}</span>
                 </li>
               ))}

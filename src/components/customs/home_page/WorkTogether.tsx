@@ -6,50 +6,50 @@ import Image from "next/image";
 export default function WorkTogether() {
   const dots = [
     {
-      top: "0%",
-      left: "50%",
+      top: "2%",
+      left: "55%",
       bg: "bg-yellow-400",
       img: "/avater-2.jpg",
     },
     {
-      top: "15%",
-      left: "80%",
+      top: "20%",
+      left: "50%",
       bg: "bg-blue-400",
       img: "/avater-3.jpg",
     },
     {
-      top: "50%",
-      left: "100%",
+      top: "45%",
+      left: "95%",
       bg: "bg-green-500",
       img: "/avater-4.jpg",
     },
     {
-      top: "85%",
+      top: "55%",
       left: "80%",
       bg: "bg-blue-400",
       img: "/avater-5.jpg",
     },
     {
-      top: "100%",
+      top: "80%",
       left: "50%",
       bg: "bg-orange-300",
       img: "/avater-6.jpg",
     },
     {
-      top: "85%",
-      left: "20%",
+      top: "90%",
+      left: "65%",
       bg: "bg-blue-400",
       img: "/avater-7.jpg",
     },
     {
-      top: "50%",
-      left: "0%",
+      top: "55%",
+      left: "20%",
       bg: "bg-red-400",
       img: "/avater-7.jpg",
     },
     {
-      top: "15%",
-      left: "20%",
+      top: "75%",
+      left: "15%",
       bg: "bg-blue-400",
       img: "/avater-8.jpg",
     },
@@ -59,6 +59,12 @@ export default function WorkTogether() {
       bg: "bg-green-500",
       img: "/avater-9.jpg",
     },
+    {
+      top: "35%",
+      left: "10%",
+      bg: "bg-green-500",
+      img: "/avater-10.jpg",
+    },
   ];
 
   return (
@@ -67,18 +73,12 @@ export default function WorkTogether() {
       <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px] flex-shrink-0 mx-auto mb-12 md:mb-0">
         {/* Center Icon */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white  rounded-xl flex items-center justify-center z-10">
-          <Image
-            src="/logo.png"
-            alt="Center Icon"
-            width={32}
-            height={32}
-            className="rounded-full"
-          />
+          <Image src="/logo.png" alt="Center Icon" width={32} height={32} />
         </div>
 
         {/* Outer Circles */}
-        <div className="absolute w-[100] h-[100] inset-0 border border-dashed border-blue-300 rounded-full"></div>
-        <div className="absolute inset-10 border border-dashed border-blue-300 rounded-full"></div>
+        <div className="absolute w-[100] h-[100] inset-5 border border-dashed border-blue-300 rounded-full"></div>
+        <div className="absolute inset-20 border border-dashed border-blue-300 rounded-full"></div>
 
         {/* Orbiting Dots */}
         {dots.map((dot, i) => (

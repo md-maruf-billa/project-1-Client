@@ -1,4 +1,5 @@
 import { default as HeroBanner } from "@/components/customs/home_page/Banner";
+import DataPrivacy from "@/components/customs/home_page/DataPrivacy";
 import Extension from "@/components/customs/home_page/Extention";
 import Pricing from "@/components/customs/home_page/Pricing";
 import ProjectManagment from "@/components/customs/home_page/ProjectManagment";
@@ -15,6 +16,7 @@ export default function Home() {
       <Extension />
       <Pricing />
       <Working />
+      <DataPrivacy />
     </div>
   );
 }
