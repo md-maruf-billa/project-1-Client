@@ -1,7 +1,15 @@
 import { ShieldCheck } from "lucide-react";
 
 const Pricing = () => {
-  const plans = [
+  interface Plan {
+    title: string;
+    price: string;
+    highlight?: boolean;
+    features: string[];
+    buttonStyle: string;
+  }
+
+  const plans: Plan[] = [
     {
       title: "Free",
       price: "$0",

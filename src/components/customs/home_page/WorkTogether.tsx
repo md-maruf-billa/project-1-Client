@@ -72,8 +72,14 @@ export default function WorkTogether() {
       {/* Orbit Dots Section */}
       <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px] flex-shrink-0 mx-auto mb-12 md:mb-0">
         {/* Center Icon */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white  rounded-xl flex items-center justify-center z-10">
-          <Image src="/logo.png" alt="Center Icon" width={32} height={32} />
+        <div className="absolute top-1/2 left-1/2 shadow-lg border p-2 border-dashed border-blue-500 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white  rounded-xl flex items-center justify-center z-10">
+          <Image
+            src="/logo.png"
+            alt="Center Icon"
+            width={56}
+            height={56}
+            className="rounded-xl"
+          />
         </div>
 
         {/* Outer Circles */}
@@ -84,7 +90,7 @@ export default function WorkTogether() {
         {dots.map((dot, i) => (
           <div
             key={i}
-            className={`absolute w-10 h-10 rounded-full  animate-orbit overflow-hidden border-2 border-white ${dot.bg}`}
+            className={`absolute w-14 h-14 rounded-full  animate-orbit overflow-hidden border-2  ${dot.bg}`}
             style={{
               top: dot.top,
               left: dot.left,
@@ -94,8 +100,8 @@ export default function WorkTogether() {
             <Image
               src={dot.img}
               alt={`Dot ${i}`}
-              width={40}
-              height={40}
+              width={56}
+              height={56}
               className="w-full h-full object-cover rounded-full"
             />
           </div>
@@ -116,7 +122,7 @@ export default function WorkTogether() {
           on them. You can also publish a note to the internet and share the URL
           with others.
         </p>
-        <Button className="bg-[#4F9CF9] hover:bg-[#6eb4fc] text-white">
+        <Button className="bg-[#4F9CF9] hover:bg-[#6eb4fc] text-white hover:text-black">
           Try it now →
         </Button>
       </div>

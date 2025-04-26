@@ -36,7 +36,7 @@ const Working = () => {
 
         {/* CTA Button */}
         <Link href="#">
-          <Button className="bg-[#4F9CF9] hover:bg-[#6eb4fc] text-white transition gap-2">
+          <Button className="bg-[#4F9CF9] hover:bg-[#6eb4fc] text-white transition gap-2 hover:text-black">
             Try Taskay <FontAwesomeIcon icon={faArrowRight} />
           </Button>
         </Link>
