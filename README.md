@@ -5,4 +5,8 @@
 - pricing
 - project managment
 - working
+- dataprivacy
+- sponsor
+- testimonials
+- that means home page done
 - 
