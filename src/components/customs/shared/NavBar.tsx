@@ -78,7 +78,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-4">
           <Button
             variant="outline"
-            className="bg-[#4F9CF9] hover:bg-[#6eb4fc] text-white transition duration-300"
+            className="bg-[#4F9CF9] hover:bg-[#6eb4fc] text-white hover:text-black transition duration-300"
           >
             Try Whitepeac Free
           </Button>
