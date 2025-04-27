@@ -9,4 +9,5 @@
 - sponsor
 - testimonials
 - that means home page done
-- 
+- login page done
+- register page done
