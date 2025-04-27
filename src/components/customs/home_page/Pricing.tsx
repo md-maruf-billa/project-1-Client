@@ -90,7 +90,7 @@ const Pricing = () => {
               ))}
             </ul>
             <button
-              className={`px-4 py-2 rounded-md text-sm font-medium ${plan.buttonStyle}`}
+              className={`px-4 py-2 bg-[#4F9CF9] hover:bg-[#6eb4fc] text-white hover:text-black rounded-md text-sm font-medium ${plan.buttonStyle}`}
             >
               Get Started
             </button>

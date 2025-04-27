@@ -5,4 +5,10 @@
 - pricing
 - project managment
 - working
--
+- pricing
+- dataPrivacy
+- testimonials
+- Footer
+  thats means home page done
+- login page done
+- register page done
